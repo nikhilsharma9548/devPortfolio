@@ -20,8 +20,8 @@ function App() {
           <Route path='projects' element= {<Project/>} />
         </Route>
         </Routes>
-        
       </div>
+        <p className='bg-black text-white text-center p-5 '>All Rights Are Reserved By - Devansh</p>
     </>
   )
 }
