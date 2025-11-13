@@ -6,7 +6,7 @@ import { GrMysql } from "react-icons/gr";
 
 const Resume = () => {
   return (
-    <div className='overflow-y-scroll h-full w-full no-scrollbar pb-20'>
+    <div className='overflow-y-scroll h-full w-full no-scrollbar'>
         <div className='py-2 px-5 font-sans'>
             <h2 className=' text-3xl font-semibold text-white'>Resume</h2>
             <div className='w-[10%] p-0.5 bg-yellow-400 rounded-lg'></div>

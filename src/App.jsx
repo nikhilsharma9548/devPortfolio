@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from './Components/Hero'
 import { Route, Routes } from 'react-router-dom'
 import About from './Components/About'
@@ -10,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen bg-gradient-to-r from-gray-500 to-gray-900 flex items-center justify-center overfllow-hidden px-5 lg:px-[10%] py-[3%] '>
+      <div className='w-full min-h-screen sm:h-screen bg-gradient-to-r from-gray-500 to-gray-900 overfllow-hidden  lg:px-[10%] sm:py-[3%] '>
         <Routes>
           {/* <Route path="/" element={<Hero/>} /> */}
           <Route path='/'  element = {<Hero />}>
@@ -21,7 +20,7 @@ function App() {
         </Route>
         </Routes>
       </div>
-        <p className='bg-black text-white text-center p-5 '>All Rights Are Reserved By - Devansh</p>
+        <p className='bg-black text-white text-center p-4'>All Rights Are Reserved By - Devansh</p>
     </>
   )
 }
