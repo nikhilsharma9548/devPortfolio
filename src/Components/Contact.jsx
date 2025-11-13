@@ -15,7 +15,7 @@ const Contact = () => {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26836.35786983341!2d78.62314582297796!3d27.804695572087333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974e017ea59c0cf%3A0xd9e1865d96650334!2sKasganj%2C%20Uttar%20Pradesh%20207123!5e1!3m2!1sen!2sin!4v1761446053910!5m2!1sen!2sin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" className=' w-full h-full '></iframe>
             </div>
 
-            <div className='py-2 px-2'>
+            <div className='py-2'>
               <p className='flex items-center font-semibold text-2xl gap-2'>
                 <span className='p-2 rounded flex flex-col bg-gray-500'><FaRegFileAlt/>
                 </span>Contact Form 
