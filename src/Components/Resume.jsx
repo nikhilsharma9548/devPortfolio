@@ -3,13 +3,26 @@ import {FaBook,FaCircle, FaCode} from 'react-icons/fa'
 import { FaCopyright, FaJava } from "react-icons/fa6";
 import { SiPython } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { assets } from '../assets/assets';
+import { IoMdDownload } from "react-icons/io";
 
 const Resume = () => {
   return (
     <div className='overflow-y-scroll h-full w-full no-scrollbar'>
         <div className='py-2 px-5 font-sans'>
-            <h2 className=' text-3xl font-semibold text-white'>Resume</h2>
-            <div className='w-[10%] p-0.5 bg-yellow-400 rounded-lg'></div>
+            <div className=' flex justify-between items-center mb-7'>
+                <div><h2 className=' text-3xl font-semibold text-white'>Resume</h2>
+                    <div className='w-24 p-0.5 bg-yellow-400 rounded-lg'></div>
+            </div>
+            <div className=' flex justify-end'>
+                <a href={assets.Resume} className=' flex gap-2 items-center rounded 
+                px-3 py-2 bg-gray-800/40  border border-gray-300/40 text-yellow-400' download='Resume.pdf'>
+                  <span className='text-lg '><IoMdDownload/></span>
+                  Download
+               </a>
+            </div>
+            </div>
+            
             <div className=''>
                 <div className=' flex items-center gap-4 mt-7'>
                     <FaBook className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl shadow-xl' />

@@ -19,10 +19,7 @@ const Intro = () => {
       <div className='flex sm:flex-col flex-row justify-center sm:items-center sm:px-10  gap-7 py-2 sm:gap-0'>
         <img src={assets.devansh} className="w-48 rounded" />
          <div className='text-center flex flex-col sm:justify-center items-center '>
-          <p className='text-3xl flex gap-2 font-semibold sm:pt-2'>Devansh <a href={assets.Resume} className='max-sm:hidden flex gap-2 items-center rounded 
-          px-2 py-1 bg-gray-800/40  border border-gray-300/40 text-yellow-400' download='Resume.pdf'>
-                  <span className='text-lg '><IoMdDownload/></span>
-               </a></p>
+          <p className='text-3xl flex gap-2 font-semibold sm:pt-2'>Devansh</p>
           <p className='px-5 py-2 rounded sm:mt-2 mt-1 sm:text-base text-sm bg-gray-500'>Web Developer</p>
                   {/* <div className='mt-2'> 
          </div> */}
