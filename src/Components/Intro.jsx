@@ -19,9 +19,13 @@ const Intro = () => {
       <div className='flex sm:flex-col flex-row justify-center sm:items-center sm:px-10  gap-7 py-2 sm:gap-0'>
         <img src={assets.devansh} className="w-48 rounded" />
          <div className='text-center flex flex-col sm:justify-center items-center '>
-          <p className='text-3xl font-semibold sm:pt-2'>Devansh</p>
+          <p className='text-3xl flex gap-2 font-semibold sm:pt-2'>Devansh <a href={assets.Resume} className='max-sm:hidden flex gap-2 items-center rounded 
+          px-2 py-1 bg-gray-800/40  border border-gray-300/40 text-yellow-400' download='Resume.pdf'>
+                  <span className='text-lg '><IoMdDownload/></span>
+               </a></p>
           <p className='px-5 py-2 rounded sm:mt-2 mt-1 sm:text-base text-sm bg-gray-500'>Web Developer</p>
-
+                  {/* <div className='mt-2'> 
+         </div> */}
           {/* social links */}
          <div className='sm:hidden '>
         <ul className=' grid grid-cols-2 xs:grid-cols-4 sm:flex px-5 border border-gray-300/40 bg-gray-800/40 py-3 items-center gap-7  mt-3 rounded text-xl text-gray-300'>
@@ -36,28 +40,28 @@ const Intro = () => {
       </div>
       <div className= 'flex sm:flex-col justify-between h-full '>   
       <div>
-        <ul className='xs:px-5 px-3 mt-3 flex flex-col gap-3'>
+        <ul className='xs:px-5 px-3 flex flex-col mt-3 gap-3'>
           <li className='flex items-center gap-4'><MdEmail  className='text-3xl'/>
             <p className='sm:text-base text-sm flex flex-col'> 
-              <span className='sm:text-xl font-semibold'>Email</span> 
+              <span className='sm:text-lg font-semibold'>Email</span> 
               devanshb661@gmail.com</p>
           </li>
 
           <li className='flex items-center gap-3'><FaPhone  className='text-3xl'/>
             <p className='sm:text-base text-sm flex flex-col'> 
-              <span className='sm:text-xl font-semibold'>Moblie</span>
+              <span className='sm:text-lg font-semibold'>Moblie</span>
               +91 7820061773</p>
           </li>
 
           <li className='flex items-center gap-4'><SlCalender  className='text-3xl'/>
             <p className='sm:text-base text-sm flex flex-col'>
-              <span className='sm:text-xl font-semibold'>Date of Birth</span>
+              <span className='sm:text-lg font-semibold'>Date of Birth</span>
               25-07-2005</p>
           </li>
 
           <li className='flex items-center  gap-4'><FaLocationDot className='text-3xl'/>
             <p className='sm:text-base text-sm flex flex-col'>
-              <span className='sm:text-xl font-semibold'>Location</span>
+              <span className='sm:text-lg font-semibold'>Location</span>
               Kasganj, Uttar Pradesh</p>
           </li>
         </ul>
