@@ -14,15 +14,15 @@ const Resume = () => {
                 <div><h2 className=' text-3xl font-semibold text-white'>Resume</h2>
                     <div className='w-24 p-0.5 bg-yellow-400 rounded-lg'></div>
             </div>
-            <div className=' flex justify-end'>
+            <div className=' flex justify-end '>
                 <a href={assets.Resume} className=' flex gap-2 items-center rounded 
-                px-3 py-2 bg-gray-800/40  border border-gray-300/40 text-yellow-400' download='Resume.pdf'>
+                px-3 py-2 bg-gray-800/40 hover:bg-gray-800 hover:text-yellow-300 duration-200  border border-gray-300/40 text-yellow-400' download='Resume.pdf'>
                   <span className='text-lg '><IoMdDownload/></span>
                   Download
                </a>
             </div>
             </div>
-            
+
             <div className=''>
                 <div className=' flex items-center gap-4 mt-7'>
                     <FaBook className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl shadow-xl' />
