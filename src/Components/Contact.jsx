@@ -28,7 +28,7 @@ const Contact = () => {
                 <input type="text" placeholder='Name' className='border p-2 rounded w-full bg-gray-500/40 outline-yellow-400'/>
                 <input type="email" placeholder='Email' className='border p-2 rounded w-full bg-gray-500/40 outline-yellow-400'/>
                 </div>
-                <textarea type="text" rows={10} className='border rounded w-full bg-gray-500/40 p-2 outline-yellow-400 '/>
+                <textarea type="text" placeholder='type....' rows={10} className='border rounded w-full bg-gray-500/40 p-2 outline-yellow-400 '/>
                 </div>
                 <button className='flex items-center gap-2 md:text-xl text-base p-2 font-semibold bg-gray-600/40 text-yellow-400 rounded hover:bg-gray-600 transition-all duration-200 border border-gray-300/40'><BsFillSendFill/>Send Message</button>
               </div>

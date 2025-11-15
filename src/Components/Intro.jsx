@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { SlCalender } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
+import { IoMdDownload } from "react-icons/io";
 
 import { RiInstagramFill } from "react-icons/ri";
 import { SiLinkedin } from "react-icons/si";
@@ -54,14 +55,18 @@ const Intro = () => {
               25-07-2005</p>
           </li>
 
-          <li className='flex items-center gap-4'><FaLocationDot className='text-3xl'/>
+          <li className='flex items-center  gap-4'><FaLocationDot className='text-3xl'/>
             <p className='sm:text-base text-sm flex flex-col'>
               <span className='sm:text-xl font-semibold'>Location</span>
               Kasganj, Uttar Pradesh</p>
           </li>
         </ul>
       </div>
-        
+        <div> 
+          <a href={assets.Resume} className='sm:hidden flex gap-2 items-center rounded 
+          px-2 py-1 bg-gray-800/40  border border-gray-300/40 text-yellow-400' download='Resume.pdf'>
+                  <span className='text-xl '><IoMdDownload/></span> Resume 
+               </a></div>
       </div>
     </div>
     </>
