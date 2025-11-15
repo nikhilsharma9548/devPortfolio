@@ -6,7 +6,6 @@ import { FaPhone } from "react-icons/fa6";
 import { SlCalender } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 
-import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
@@ -25,7 +24,6 @@ const Intro = () => {
           {/* social links */}
          <div className='sm:hidden '>
         <ul className=' grid grid-cols-2 xs:grid-cols-4 sm:flex px-5 border border-gray-300/40 bg-gray-800/40 py-3 items-center gap-7  mt-3 rounded text-xl text-gray-300'>
-          {/* <a href='https://x.com/17_devansh?t=2YR4UjxtPAXxlUQq8U0lwA&s=09'><FaTwitter/></a> */}
           <a href='https://www.instagram.com/devanshbhardwaj17?igsh=MWptNjk5eDdjcjYwYg=='><RiInstagramFill/></a>
           <a href='https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android'><SiLinkedin/></a>
           <a href='https://github.com/devanshbhardwaj17'><FaGithub/></a>
