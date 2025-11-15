@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
-import { assets } from '../assets/assets'
+import { NavLink, Outlet } from 'react-router-dom'
 
 const Dashboard = () => {
   return (
@@ -9,10 +8,10 @@ const Dashboard = () => {
           
           <p className='font-serif fontmomo flex text-xl lg:text-2xl px-3 py-3 items-center '>PORTFOLIO</p>
           <ul className='flex gap-7 lg:text-lg text-base px-3 md:py-3 py-2 md:rounded-bl-2xl rounded-tr '>
-            <Link to="/">About</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/Projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <NavLink className={({ isActive }) => isActive ? "text-yellow-400 border-b" : "text-white" } to="/">About</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "text-yellow-400 border-b" : "text-white" } to="/resume">Resume</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "text-yellow-400 border-b" : "text-white" } to="/Projects">Projects</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "text-yellow-400 border-b" : "text-white" } to="/contact">Contact</NavLink>
           </ul>
         </div>
         <Outlet/>
