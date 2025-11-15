@@ -21,6 +21,18 @@ const Intro = () => {
          <div className='text-center flex flex-col sm:justify-center items-center '>
           <p className='text-3xl font-semibold sm:pt-2'>Devansh</p>
           <p className='px-5 py-2 rounded sm:mt-2 mt-1 sm:text-base text-sm bg-gray-500'>Web Developer</p>
+
+          {/* social links */}
+         <div className='sm:hidden '>
+        <ul className=' grid grid-cols-2 xs:grid-cols-4 sm:flex px-5 border border-gray-300/40 bg-gray-800/40 py-3 items-center gap-7  mt-3 rounded text-xl text-gray-300'>
+          {/* <a href='https://x.com/17_devansh?t=2YR4UjxtPAXxlUQq8U0lwA&s=09'><FaTwitter/></a> */}
+          <a href='https://www.instagram.com/devanshbhardwaj17?igsh=MWptNjk5eDdjcjYwYg=='><RiInstagramFill/></a>
+          <a href='https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android'><SiLinkedin/></a>
+          <a href='https://github.com/devanshbhardwaj17'><FaGithub/></a>
+          <a href='https://wa.me/7820061773'><FaSquareWhatsapp/></a>
+        </ul>
+      </div> 
+   
         </div>  
       </div>
       <div className= 'flex sm:flex-col justify-between h-full '>   
@@ -51,19 +63,7 @@ const Intro = () => {
           </li>
         </ul>
       </div>
-                {/* social links */}
-         <div className='sm:hidden '>
-          <p className='text-amber-400'>social media </p>
-          <div className='h-1 w-14 rounded-full bg-amber-400'></div>
-        <ul className=' grid grid-cols-3 sm:flex px-5 border border-gray-300/40 bg-gray-800/40 py-3 items-center gap-7  mt-3 rounded text-xl text-gray-300'>
-          <a href='https://x.com/17_devansh?t=2YR4UjxtPAXxlUQq8U0lwA&s=09'><FaTwitter/></a>
-          <a href='https://www.instagram.com/devanshbhardwaj17?igsh=MWptNjk5eDdjcjYwYg=='><RiInstagramFill/></a>
-          <a href='https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android'><SiLinkedin/></a>
-          <a href='https://github.com/devanshbhardwaj17'><FaGithub/></a>
-          <a href='https://wa.me/7820061773'><FaSquareWhatsapp/></a>
-        </ul>
-      </div> 
-   
+        
       </div>
     </div>
     </>
